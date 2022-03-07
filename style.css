@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    width: 420px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#weather-forecast {
+    color: #292929;
+    background-image: url('media/Paper.Journal.2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+.forecast {
+    margin-left: 15px;
+    margin-top: 100px;
+}
+
+#month-date {
+    font-size: 20px;
+}
+
+#city {
+    margin-top: -10px;
+}
+#temperature {
+    color: rgb(32, 32, 32);
+    position: relative;
+    margin-top: -10px;
+}
+#temperature span {
+    color: #2c2c2c;
+    font-size: 20px;
+    margin-left: 5px;
+}
+#weather-icon {
+    margin-left: 40px;
+    margin-top: -4px;
+    position: absolute;
+}
+
+#add-button {
+    margin-top: 5px;
+    margin-bottom: -11px;
+    margin-left: 12px;
+}
+
+footer {
+    background-color: #ebecec;
+}
+#deleteAll-button {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    background-color: rgba(95, 158, 160, 0.432);
+    border: 1px solid rgba(161, 161, 161, 0.295);
+    color: #292929;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px 20px 1px 20px;
+    position: sticky;
+    bottom: 0;
+}
+
+#container {
+    background-color: #ebecec;
+    height: 450px;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+#container::-webkit-scrollbar {
+    width: 2px;
+}
+
+.delete-button {
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgba(161, 161, 161, 0.295);
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgba(161, 161, 161, 0.295);
+    margin-top: 13px;
+}
+
+ul {
+    width: 100%;
+    margin: auto;
+    padding: 0%;
+}
+li {
+    list-style: none;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid #4e4e4e9a;
+    text-align: left;
+}
+li p {
+    font-family: 'Nunito', sans-serif;
+    color: #292929;
+    font-weight: 500;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.checked {
+    color: gray;
+}
+
+#form {
+    position: sticky;
+    top: 0;
+    background-color: #ebecec;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+#todo-input {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgba(233, 222, 222, 0.425);
+    width: 73%;
+    height: 20px;
+    margin-left: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(77, 77, 77, 0.616);
+}
